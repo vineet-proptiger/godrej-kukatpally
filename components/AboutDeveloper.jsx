@@ -444,9 +444,9 @@ const AboutDeveloper = ({ setIsOpen }) => (
               }}
             >
               {[
-                { value: "15+", label: "Years of Experience" },
-                { value: "50+", label: "Projects Delivered" },
-                { value: "10000+", label: "Happy Families" },
+                { value: "30+", label: "Years of Experience" },
+                { value: "200+", label: "Projects Delivered" },
+                { value: "1000000+", label: "Happy Families" },
               ].map((stat, i) => (
                 <div
                   key={i}
