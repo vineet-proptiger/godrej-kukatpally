@@ -8,7 +8,7 @@ const units = [
   {
     type: "3 BHK",
     size: "1579 - 1889 Sq.Ft.",
-    price: "₹ 2 - 2.80 Cr* Onwards",
+    price: "₹ 2 Cr* Onwards",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
@@ -19,9 +19,9 @@ const units = [
     isPopular: false,
   },
    {
-    type: "3 BHK + 3T",
-    size: "1220 Sq.ft",
-    price: " Ask For Price",
+    type: "3 BHK + S",
+    size: "2200 Sq.ft",
+    price: "Ask For Price",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
@@ -34,7 +34,7 @@ const units = [
   {
     type: "4 BHK",
     size: "3207 - 3257 Sq.Ft.",
-    price: "₹ 4.10 Cr* Onwards",
+    price: " Ask For Price",
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
