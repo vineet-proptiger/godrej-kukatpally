@@ -86,7 +86,7 @@ const Footer = () => (
       </p>
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
         <Link
-          href="/godrej-kukatpally/privacy-policy"
+          href="/privacy-policy"
           style={{
             fontSize: "13px",
             color: "var(--color-teal)",
