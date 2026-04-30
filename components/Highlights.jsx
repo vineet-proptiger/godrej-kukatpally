@@ -178,7 +178,7 @@ const Highlights = ({ setIsOpen }) => (
             letterSpacing: "-0.01em",
           }}
         >
-          Highlights Gallery:{" "}
+          Project Highlights:{" "}
           <span style={{ color: "var(--color-teal)" }}>
             {" "}
             Godrej Kukatpally

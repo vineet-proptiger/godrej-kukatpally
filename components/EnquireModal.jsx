@@ -17,8 +17,8 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
     const initial = setTimeout(() => {
       autoTriggered.current = true;
       setIsOpen(true);
-      intervalRef.current = setInterval(() => setIsOpen(true), 20000);
-    }, 10000);
+      intervalRef.current = setInterval(() => setIsOpen(true), 30000);
+    }, 30000);
     return () => {
       clearTimeout(initial);
       if (intervalRef.current) clearInterval(intervalRef.current);
@@ -126,7 +126,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 className="text-[11px] font-medium opacity-85"
                 style={{ fontFamily: F_JOST }}
               >
-                3/4 BHK · Starting ₹2 Cr* Onwards
+                3/4 BHK · Starts ₹2 Cr* Onwards
               </p>
             </div>
           </div>
@@ -149,13 +149,13 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                   marginBottom: "10px",
                 }}
               >
-                Exclusive Benefits
+                Avail Pre-launch Benefits
               </span>
               <h3
                 className="text-xl sm:text-2xl font-bold text-gray-900 leading-snug uppercase tracking-tight"
                 style={{ fontFamily: F_JOST }}
               >
-                Book A Free Site Visit
+                Booking window closing soon
               </h3>
               <div
                 style={{
@@ -181,12 +181,12 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
               className="text-center text-[13px] text-gray-500 mb-6"
               style={{ fontFamily: F_SANS }}
             >
-              Register Now To Get{" "}
+              Register Now To Avail{" "}
               <span
                 className="blink-price font-bold"
                 style={{ color: "var(--color-teal-dark)" }}
               >
-                Best Offers
+                Priorty Allotment
               </span>
             </p>
             <LeadForm formName="Popup Modal" btnText="Submit Details" />

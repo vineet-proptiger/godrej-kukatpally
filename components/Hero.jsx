@@ -145,7 +145,7 @@ const Hero = ({ setIsOpen }) => {
                   background: "rgba(255,255,255,0.6)",
                 }}
               />
-              EOI Open Now!
+              EOI Window Now Opens !
               <span
                 style={{
                   display: "inline-block",
@@ -179,7 +179,7 @@ const Hero = ({ setIsOpen }) => {
                   fontFamily: F_JOST,
                 }}
               >
-                New Launch
+                Pre-Launch
               </span>
             </div>
 
@@ -236,7 +236,7 @@ const Hero = ({ setIsOpen }) => {
               >
                 By Godrej Group
               </p>
-           
+
             </div>
 
             {/* ── Project Specs ── */}
@@ -327,12 +327,12 @@ const Hero = ({ setIsOpen }) => {
                   lineHeight: 1.4,
                 }}
               >
-                Live Higher, Live Better in West Hyderabad&apos;s New Landmark Address
+                Hyderabad&apos;s New Landmark Address
               </p>
               {[
-                "Premium 3 & 4 BHK Luxury Apartments",
-                "G+46 Floors — Hyderabad's Tallest Living*",
-                "Iconic Godrej Group Development",
+                "EOI Starts ₹10 Lacs*",
+                "Avail Pre-launch Benefits",
+                "8 Acres Land Parcel",
               ].map((item, i, arr) => (
                 <div key={i}>
                   <p
@@ -392,7 +392,7 @@ const Hero = ({ setIsOpen }) => {
                   fontWeight: "600",
                 }}
               >
-                Luxury Apartments Starting From
+                Godrej new iconic landmark starts
               </p>
               <span
                 className="blink-price"

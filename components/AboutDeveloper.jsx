@@ -401,7 +401,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
                     letterSpacing: "-0.01em",
                   }}
                 >
-                  Godrej Kukatpally
+                  Godrej Properties
                 </h3>
               </div>
             </div>
@@ -552,7 +552,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
                 margin: 0,
               }}
             >
-              Register now to get the best deal &amp; book your site visit
+              Register now to get the best deal &amp; offers
             </p>
           </div>
 
