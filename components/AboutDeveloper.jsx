@@ -552,7 +552,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
                 margin: 0,
               }}
             >
-              Register now to get the best deal &amp; offers
+              Register now to get the best deals &amp; offers
             </p>
           </div>
 

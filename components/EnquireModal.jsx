@@ -186,7 +186,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 className="blink-price font-bold"
                 style={{ color: "var(--color-teal-dark)" }}
               >
-                Priorty Allotment
+                Priority Allotment
               </span>
             </p>
             <LeadForm formName="Popup Modal" btnText="Submit Details" />
