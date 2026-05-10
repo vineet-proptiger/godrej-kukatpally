@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { X } from "lucide-react";
 import LeadForm from "./LeadForm";
-import { popupImage } from "../lib/images";
+// import { popupImage } from "../lib/images";
 
 const F_SANS = "var(--font-sans), Open Sans, sans-serif";
 const F_JOST = "var(--font-jost), Montserrat, sans-serif";
@@ -43,15 +43,15 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
       <div
         className="relative bg-white w-full rounded-2xl overflow-hidden shadow-2xl flex flex-col sm:flex-row"
         style={{
-          maxWidth: "960px",
-          width: "95vw",
+          maxWidth: "400px",
+          width: "92vw",
           maxHeight: "95vh",
           animation: "slideInRight 0.45s cubic-bezier(0.22,1,0.36,1) forwards",
         }}
         onClick={(e) => e.stopPropagation()}
       >
         {/* LEFT - Image */}
-        <div
+        {/* <div
           className="hidden sm:block sm:w-[44%] shrink-0 relative min-h-[480px]"
           style={{ background: "#0d1117" }}
         >
@@ -87,7 +87,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
               3/4 BHK · Starting ₹2 Cr* Onwards
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* RIGHT - Form */}
         <div className="flex-1 flex flex-col overflow-y-auto">
@@ -99,7 +99,7 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
           </button>
 
           {/* Mobile strip */}
-          <div className="sm:hidden w-full h-56 relative shrink-0">
+          {/* <div className="sm:hidden w-full h-56 relative shrink-0">
             <Image
               src={popupImage}
               alt="Godrej Kukatpally"
@@ -129,9 +129,9 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 3/4 BHK · Starts ₹2 Cr* Onwards
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="p-6 sm:p-8 flex flex-col justify-center flex-1">
+          <div className="p-4 sm:p-5 pt-8 sm:pt-10 flex flex-col justify-center flex-1">
             <div className="text-center mb-6">
               <span
                 style={{
@@ -152,10 +152,10 @@ const EnquireModal = ({ isOpen, setIsOpen }) => {
                 Avail Pre-launch Benefits
               </span>
               <h3
-                className="text-xl sm:text-2xl font-bold text-gray-900 leading-snug uppercase tracking-tight"
+                className="text-lg sm:text-xl font-bold text-gray-900 leading-snug tracking-tight"
                 style={{ fontFamily: F_JOST }}
               >
-                Booking window closing soon
+                Book a free site visit
               </h3>
               <div
                 style={{
